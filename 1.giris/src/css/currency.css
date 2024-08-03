@@ -1,0 +1,31 @@
+.currency-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;/*Üstten başlasın */
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+    
+   
+}
+.amount,.result{
+    width: 80px;
+    height: 25px;
+    margin-right: 10px;
+}
+.from-currency-option,.to-currency-option{
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+.exchange-btn{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(255, 200, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
